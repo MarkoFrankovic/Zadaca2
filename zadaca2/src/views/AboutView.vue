@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Zadaća 2"/>
+
   </div>
 </template>
 
@@ -22,7 +23,6 @@ async mounted(){
   console.log(podatci);
   console.log(podatci2);
   console.log(podatci3);
-
 
   let rezultati = await podatci.json();
   let rezultati2 = await podatci2.json();
