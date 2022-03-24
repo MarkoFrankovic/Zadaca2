@@ -7,6 +7,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 let objekt = {
 name: "AboutView",
 data: function() {
@@ -35,7 +36,6 @@ console.log(rezultati3);
 this.commits = rezultati;
 this.commits = rezultati2;
 this.commits = rezultati3;
-
 
 }
 }
